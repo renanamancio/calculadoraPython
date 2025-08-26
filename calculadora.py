@@ -54,4 +54,5 @@ def main():
     print(f"O resultado é: " + str(resultado))
     print("")
 
-main()
+if __name__ == "__main__":
+    main()

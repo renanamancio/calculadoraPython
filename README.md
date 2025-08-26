@@ -68,3 +68,42 @@ Para executar a calculadora, utilize o seguinte comando no seu terminal:
 
 ```bash
 python calculadora.py
+
+O programa irá solicitar interativamente que você digite os números e a operação desejada.
+
+--- Calculadora Simples em Python ---
+Digite o primeiro número: 10
+Digite o segundo número: 5
+Digite o código da operação desejada:
+               Soma:          Digite 1
+               Subtração:     Digite 2
+               Multiplicação: Digite 3
+               Divisão:       Digite 4
+3
+
+-------------------------------------
+O resultado é: 50.0
+-------------------------------------
+
+## Como Rodar os Testes
+Este projeto utiliza pytest para garantir a qualidade do código. Para executar a suíte de testes completa, navegue até a pasta raiz do projeto e execute:
+
+'''bash
+pytest
+Para uma saída mais detalhada (verbose):
+
+'''bash
+pytest -v
+
+Você deverá ver uma saída indicando que todos os testes passaram com sucesso:
+
+============================= test session starts ==============================
+...
+collected 5 items
+
+test_calculadora.py .....                                                [100%]
+
+============================== 5 passed in 0.02s ===============================
+
+Autor
+Feito por Renan H. B. Amancio.

@@ -1,6 +1,6 @@
 import pytest
 from unittest.mock import patch
-from tests.calculadora import calcular, entrada_usuario, main
+from calculadora import calcular, entrada_usuario, main
 
 @pytest.mark.parametrize("a, b, op, esperado", [
     (5, 3, "1", 8),
