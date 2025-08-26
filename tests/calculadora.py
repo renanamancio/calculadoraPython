@@ -8,7 +8,7 @@ def calcular(a, b, op):
             return a * b
         case "4":
             if b == 0:
-                return "Erro: Divisão por zero não é permitida."
+                return "Divisão por zero não é permitida."
             else:
                 return a / b
         case _:
@@ -55,5 +55,3 @@ def main():
     print("")
 
 main()
-
-
